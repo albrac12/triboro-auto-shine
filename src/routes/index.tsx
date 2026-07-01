@@ -75,10 +75,9 @@ function Home() {
             </h2>
             <p className="mt-6 text-muted-foreground leading-relaxed">
               With an A+ rating on the Better Business Bureau, a near-perfect
-              Google Review rating, and countless customer testimonials, it's
-              pretty obvious — you love us, and we love you. For over 40 years
-              we've been making personal connections with each customer who
-              walks through our door.
+              Google Review rating, and decades of customer referrals, our
+              reputation speaks for itself. For over 40 years we've been making
+              personal connections with each customer who walks through our door.
             </p>
             <Link to="/about" className="mt-8 inline-flex items-center gap-2 font-semibold text-navy-deep hover:text-accent">
               Read our story <ArrowRight className="h-4 w-4" />
