@@ -42,7 +42,7 @@ function Home() {
             to bring your car back to factory condition — at the best price to you.
           </p>
           <div className="mt-10 flex flex-wrap gap-3">
-            <a href="tel:12017914118" className="btn-primary bg-ice! text-navy-deep!" style={{ background: "var(--ice)", color: "var(--navy-deep)" }}>
+            <a href="tel:12017914118" className="inline-flex items-center gap-2 rounded-full px-7 py-3.5 font-semibold transition-colors hover:opacity-90" style={{ background: "var(--ice)", color: "var(--navy-deep)" }}>
               <Phone className="h-4 w-4" /> (201) 791-4118
             </a>
             <Link to="/contact" className="btn-outline">
