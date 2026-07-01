@@ -7,10 +7,28 @@ import servicePaint from "@/assets/service-paint.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Tri-Boro Auto Body — Collision Repair in Fair Lawn, NJ" },
-      { name: "description", content: "Bergen County's favorite family-owned collision shop since 1982. A+ BBB rated. Direct insurance repair. Factory-condition results." },
+      { title: "Auto Body Shop Fair Lawn NJ | Tri-Boro Auto Body — Collision Repair" },
+      { name: "description", content: "Bergen County's trusted auto body shop since 1982. Free estimates, A+ BBB, factory-quality collision repair & paint. Call (201) 791-4118." },
       { property: "og:title", content: "Tri-Boro Auto Body — Collision Repair in Fair Lawn, NJ" },
       { property: "og:description", content: "Bergen County's favorite family-owned collision shop since 1982. A+ BBB, near-perfect Google reviews, direct insurance work." },
+      { property: "og:url", content: "https://triboro-auto-shine.lovable.app/" },
+      { property: "og:image", content: "https://triboro-auto-shine.lovable.app/og-image.jpg" },
+      { name: "twitter:title", content: "Tri-Boro Auto Body — Collision Repair in Fair Lawn, NJ" },
+      { name: "twitter:description", content: "Family-owned collision repair since 1982. A+ BBB rated." },
+      { name: "twitter:image", content: "https://triboro-auto-shine.lovable.app/og-image.jpg" },
+    ],
+    links: [{ rel: "canonical", href: "https://triboro-auto-shine.lovable.app/" }],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          url: "https://triboro-auto-shine.lovable.app/",
+          name: "Tri-Boro Auto Body",
+          publisher: { "@id": "https://triboro-auto-shine.lovable.app/#business" },
+        }),
+      },
     ],
   }),
   component: Home,
