@@ -4,10 +4,25 @@ import { MapPin, Phone, Clock, Mail } from "lucide-react";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — Tri-Boro Auto Body" },
-      { name: "description", content: "Visit Tri-Boro Auto Body at 5-35 Saddle River Rd, Fair Lawn, NJ. Call (201) 791-4118 for a free collision repair estimate." },
+      { title: "Contact Tri-Boro Auto Body | Fair Lawn NJ | (201) 791-4118" },
+      { name: "description", content: "Visit Tri-Boro Auto Body at 5-35 Saddle River Rd, Fair Lawn, NJ. Free estimates, Mon–Fri 7:30am–5pm. Call (201) 791-4118." },
       { property: "og:title", content: "Contact — Tri-Boro Auto Body" },
-      { property: "og:description", content: "Get directions, hours, and a free repair estimate. Fair Lawn, NJ." },
+      { property: "og:description", content: "Get directions, hours, and a free repair estimate in Fair Lawn, NJ." },
+      { property: "og:url", content: "https://triboro-auto-shine.lovable.app/contact" },
+      { name: "twitter:title", content: "Contact — Tri-Boro Auto Body" },
+      { name: "twitter:description", content: "Directions, hours & free estimates in Fair Lawn, NJ." },
+    ],
+    links: [{ rel: "canonical", href: "https://triboro-auto-shine.lovable.app/contact" }],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "ContactPage",
+          url: "https://triboro-auto-shine.lovable.app/contact",
+          mainEntity: { "@id": "https://triboro-auto-shine.lovable.app/#business" },
+        }),
+      },
     ],
   }),
   component: Contact,
