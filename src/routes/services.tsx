@@ -4,10 +4,45 @@ import { Wrench, PaintBucket, ShieldCheck, Car, Sparkles, FileCheck, ArrowRight,
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
-      { title: "Services — Tri-Boro Auto Body" },
-      { name: "description", content: "Collision repair, refinishing, frame straightening, and insurance coordination in Fair Lawn, NJ. Certified direct repair shop." },
+      { title: "Collision Repair Services in Fair Lawn, NJ | Tri-Boro Auto Body" },
+      { name: "description", content: "Collision repair, refinishing, frame straightening, dent removal & insurance coordination in Fair Lawn, NJ. Certified direct repair shop." },
       { property: "og:title", content: "Services — Tri-Boro Auto Body" },
       { property: "og:description", content: "Complete collision and refinishing services, backed by 40+ years of craftsmanship in Bergen County." },
+      { property: "og:url", content: "https://triboro-auto-shine.lovable.app/services" },
+      { name: "twitter:title", content: "Services — Tri-Boro Auto Body" },
+      { name: "twitter:description", content: "Complete collision & refinishing services in Bergen County." },
+    ],
+    links: [{ rel: "canonical", href: "https://triboro-auto-shine.lovable.app/services" }],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Service",
+          serviceType: "Auto Collision Repair",
+          provider: { "@id": "https://triboro-auto-shine.lovable.app/#business" },
+          areaServed: "Bergen County, NJ",
+          hasOfferCatalog: {
+            "@type": "OfferCatalog",
+            name: "Auto Body Services",
+            itemListElement: [
+              "Collision repair", "Refinishing & paint", "Frame straightening",
+              "Dent & scratch repair", "Insurance coordination", "Free estimates",
+            ].map((n) => ({ "@type": "Offer", itemOffered: { "@type": "Service", name: n } })),
+          },
+        }),
+      },
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://triboro-auto-shine.lovable.app/" },
+            { "@type": "ListItem", position: 2, name: "Services", item: "https://triboro-auto-shine.lovable.app/services" },
+          ],
+        }),
+      },
     ],
   }),
   component: Services,
