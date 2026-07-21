@@ -38,11 +38,13 @@ const positions: Position[] = [
       "Use hand tools, grinders, sanders, and power tools to remove old paint, rust, and imperfections from vehicle bodies",
       "Set up and operate spray guns for conventional spraying and airless paint spraying to apply primer, base coats, and clear coats with precision",
       "Perform surface preparation masking to protect areas not intended for painting during the coating process",
+      "Inspect finished surfaces for defects and perform touch-ups to ensure a flawless final result",
     ],
     requirements: [
       "Experience with automotive surface preparation and refinishing techniques",
       "Expertise in auto painting including surface prep, masking, sanding, and spray gun operation",
       "Knowledge of automotive paints, coatings, primers, and finishing products along with proper application methods",
+      "Ability to work safely with chemicals and follow shop safety and PPE standards",
     ],
   },
 ];
