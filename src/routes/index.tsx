@@ -48,7 +48,7 @@ function Home() {
             We're hiring!
           </span>
           <span className="opacity-90 font-medium">
-            Join the our team — Work with us <ArrowRight className="inline h-3.5 w-3.5" />
+            Join our team — Work with us <ArrowRight className="inline h-3.5 w-3.5" />
           </span>
         </div>
       </Link>
