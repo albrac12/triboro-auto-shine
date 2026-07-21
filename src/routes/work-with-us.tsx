@@ -32,7 +32,7 @@ const positions: Position[] = [
     location: "Fair Lawn, NJ (on-site)",
     pay: "$20–$30/hr · based on experience",
     summary:
-      "Prepare vehicle surfaces for high-quality refinishing in a professional, family-owned shop.",
+      "Prepare vehicle surfaces for high-quality refinishing. Be the first line of quality assurance in vehicle refinishing, ensuring surfaces are perfectly prepared for painting. Your expertise will help transform vehicles, restoring their appearance and value with precision and care.\u00a0",
     responsibilities: [
       "Prepare vehicle surfaces by cleaning, sanding, and applying masking to ensure optimal paint adhesion and finish quality",
       "Use hand tools, grinders, sanders, and power tools to remove old paint, rust, and imperfections from vehicle bodies",
