@@ -93,7 +93,7 @@ function WorkWithUs() {
                   </div>
                 </div>
                 <a
-                  href="tel:12017914118"
+                  href={`mailto:triboroauto@aol.com?subject=${encodeURIComponent(`Application for the position of ${p.title}`)}`}
                   className="inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground hover:opacity-90 transition-opacity"
                 >
                   Apply now
