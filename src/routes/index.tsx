@@ -37,6 +37,22 @@ export const Route = createFileRoute("/")({
 function Home() {
   return (
     <>
+      {/* HIRING BANNER */}
+      <Link
+        to="/work-with-us"
+        className="block bg-accent text-accent-foreground hover:opacity-95 transition-opacity"
+      >
+        <div className="container-x flex flex-wrap items-center justify-center gap-x-3 gap-y-1 py-3 text-center text-sm font-semibold">
+          <span className="inline-flex items-center gap-2">
+            <span className="inline-block h-2 w-2 rounded-full bg-current animate-pulse" />
+            We're hiring!
+          </span>
+          <span className="opacity-90 font-medium">
+            Join the Tri-Boro team — Work with us <ArrowRight className="inline h-3.5 w-3.5" />
+          </span>
+        </div>
+      </Link>
+
       {/* HERO */}
       <section className="relative isolate overflow-hidden bg-primary text-primary-foreground">
         <img
