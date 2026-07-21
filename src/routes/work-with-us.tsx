@@ -27,63 +27,22 @@ type Position = {
 
 const positions: Position[] = [
   {
-    title: "Auto Body Technician",
+    title: "Paint Prep Technician",
     type: "Full-time",
     location: "Fair Lawn, NJ (on-site)",
-    pay: "$28–$45/hr · based on experience",
+    pay: "$20–$30/hr · based on experience",
     summary:
-      "Perform structural, frame, and panel repair on a wide range of vehicles in a well-equipped, high-volume shop.",
+      "Prepare vehicle surfaces for high-quality refinishing in a professional, family-owned shop.",
     responsibilities: [
-      "Diagnose collision damage and develop repair plans",
-      "Perform frame straightening, welding, and panel replacement",
-      "Work with estimators to keep jobs on schedule",
-      "Maintain a clean, safe, organized workspace",
+      "Prepare vehicle surfaces by cleaning, sanding, and applying masking to ensure optimal paint adhesion and finish quality",
+      "Use hand tools, grinders, sanders, and power tools to remove old paint, rust, and imperfections from vehicle bodies",
+      "Set up and operate spray guns for conventional spraying and airless paint spraying to apply primer, base coats, and clear coats with precision",
+      "Perform surface preparation masking to protect areas not intended for painting during the coating process",
     ],
     requirements: [
-      "3+ years of collision repair experience",
-      "Own basic tools; I-CAR or ASE certification a plus",
-      "Comfortable with modern unibody and aluminum repair",
-      "Valid driver's license",
-    ],
-  },
-  {
-    title: "Refinishing Painter",
-    type: "Full-time",
-    location: "Fair Lawn, NJ (on-site)",
-    pay: "$30–$50/hr · based on experience",
-    summary:
-      "Deliver factory-quality finishes using our downdraft booths and computerized color matching system.",
-    responsibilities: [
-      "Prep, prime, paint, and clear coat repaired panels",
-      "Match colors using spectrophotometer and blend adjacent panels",
-      "Maintain booths, guns, and mixing equipment",
-      "Quality-check finished work before delivery",
-    ],
-    requirements: [
-      "3+ years as a refinishing painter",
-      "Experience with waterborne and solvent systems",
-      "Strong eye for color and finish quality",
-      "PPG, Sikkens, or Axalta experience a plus",
-    ],
-  },
-  {
-    title: "Estimator / Service Advisor",
-    type: "Full-time",
-    location: "Fair Lawn, NJ (on-site)",
-    pay: "$65k–$90k/year + bonus",
-    summary:
-      "Be the friendly face of the shop — write estimates, coordinate with insurers, and keep customers informed from drop-off to delivery.",
-    responsibilities: [
-      "Write accurate estimates using CCC ONE or Mitchell",
-      "Communicate with insurance adjusters and DRP partners",
-      "Update customers on repair progress and timelines",
-      "Manage parts ordering and supplement requests",
-    ],
-    requirements: [
-      "2+ years as a collision estimator",
-      "Experience with CCC ONE, Mitchell, or Audatex",
-      "Strong customer service and communication skills",
-      "Knowledge of insurance workflows and DRP programs",
+      "Experience with automotive surface preparation and refinishing techniques",
+      "Expertise in auto painting including surface prep, masking, sanding, and spray gun operation",
+      "Knowledge of automotive paints, coatings, primers, and finishing products along with proper application methods",
     ],
   },
 ];
