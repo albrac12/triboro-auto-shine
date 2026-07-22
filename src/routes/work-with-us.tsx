@@ -30,7 +30,7 @@ const positions: Position[] = [
     title: "Paint Prep Technician",
     type: "Full-time",
     location: "Fair Lawn, NJ (on-site)",
-    pay: "$20–$30/hr · based on experience",
+    pay: "Starting at $20/hr",
     summary:
       "Prepare vehicle surfaces for high-quality refinishing. Be the first line of quality assurance in vehicle refinishing, ensuring surfaces are perfectly prepared for painting. Your expertise will help transform vehicles, restoring their appearance and value with precision and care.\u00a0",
     responsibilities: [
